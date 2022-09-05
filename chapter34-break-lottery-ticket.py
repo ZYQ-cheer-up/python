@@ -10,3 +10,13 @@ for _ in range(4):
         break
     else:
         print('未中奖')
+a=0
+while a<5:
+    pdd=input('请输入你的序列号')
+    if pdd=='8888':
+        print('你中了五万大奖')
+        break
+    else:
+        print('未中奖')
+        a+=1
+
