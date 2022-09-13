@@ -26,7 +26,7 @@ print(set1)
 #set1.remove(213213) print(set1) KeyError: 213213
 set1.discard(213123)
 print(set1) #不存在也不会抛出异常
-set1.pop()
+set1.pop() #随机删除一个元素
 #set1.pop(3) TypeError: set.pop() takes no arguments (1 given),不能指定参数
 print(set1)
 set1.clear()
